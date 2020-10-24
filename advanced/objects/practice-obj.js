@@ -12,13 +12,13 @@ let duck = {
 //1. Using dot notation to access the duck's "name" property.
 // let accessByDotNotation = duck."name"
 // let accessByDotNotation = Object[duck].name
-// let accessByDotNotation = duck.name
+let accessByDotNotation = duck.name
 
 //2. Using bracket notation to access duck's "bites" property.
 // let accessByBracketNotation = duck{"bites"}
 // let accessByBracketNotation = Object[duck][bites]
 // let accessByBracketNotation = duck[bites]
-// let accessByBracketNotation = duck['bites']
+let accessByBracketNotation = duck['bites']
 // let accessByBracketNotation = duck(bites)
 
 ///////////////////Problem 2///////////////////
@@ -31,6 +31,9 @@ let person = {
   name: 'Ella',
   city: 'Edinburgh',
   job: 'Leader of Ghost Tours',
+  moveCities: function(newCity) {
+    person.city = newCity
+  }
 }
 
 //CODE HERE
@@ -48,7 +51,7 @@ let doors = {
 }
 
 //Code here
-
+let doorKeys = Object.keys(doors)
 //////////////////PROBLEM 4////////////////////
 
 //Based on the following set of functions, alter
@@ -84,25 +87,14 @@ function greekUnderworld(season) {
 
 //This array should only contain variables accessible in global scope
 let greekGlobalScope = [
-  'hades',
-  'zeus',
-  'olympians',
-  'hera',
-  'gatekeeper',
-  'response',
-  'persephone',
+  'hades'
 ]
 
 //This array should only contain variables accessible in scope of the
 //function greekPantheon
 let greekPantheonScope = [
   'hades',
-  'zeus',
-  'olympians',
-  'hera',
-  'gatekeeper',
-  'response',
-  'persephone',
+  'zeus'
 ]
 
 //This array should only contain variables accessible in scope of the
@@ -111,19 +103,13 @@ let greekPantheonLoopScope = [
   'hades',
   'zeus',
   'olympians',
-  'hera',
-  'gatekeeper',
-  'response',
-  'persephone',
+  'hera'
 ]
 
 //This array should only contain variables accessible in scope of the
 //the function greekUnderworld
 let greekUnderworldScope = [
   'hades',
-  'zeus',
-  'olympians',
-  'hera',
   'gatekeeper',
   'response',
   'persephone',
@@ -133,12 +119,9 @@ let greekUnderworldScope = [
 //if statement of the function greekUnderworld
 let greekUnderworldIfStatementScope = [
   'hades',
-  'zeus',
-  'olympians',
-  'hera',
   'gatekeeper',
   'response',
-  'persephone',
+  'persephone'
 ]
 
 //////////////////PROBLEM 5////////////////////
@@ -176,25 +159,14 @@ function valhalla(isRagnarok) {
 
 //This array should only contain variables accessible in global scope
 let norseGlobalScope = [
-  'hela',
-  'odin',
-  'asgardians',
-  'frigga',
-  'watcher',
-  'response',
-  'valkyrie',
+  'hela'
 ]
 
 //This array should only contain variables accessible in scope of the
 //function norsePantheon
 let norsePantheonScope = [
   'hela',
-  'odin',
-  'asgardians',
-  'frigga',
-  'watcher',
-  'response',
-  'valkyrie',
+  'odin'
 ]
 
 //This array should only contain variables accessible in scope of the
@@ -203,34 +175,24 @@ let norsePantheonLoopScope = [
   'hela',
   'odin',
   'asgardians',
-  'frigga',
-  'watcher',
-  'response',
-  'valkyrie',
+  'frigga'
 ]
 
 //This array should only contain variables accessible in scope of the
 //the function valhalla
 let valhallaScope = [
   'hela',
-  'odin',
-  'asgardians',
-  'frigga',
   'watcher',
-  'response',
-  'valkyrie',
+  'response'
 ]
 
 //This array should only contain variables accessible in scope of the
 //if statement of the function valhalla
 let valhallaIfStatementScope = [
   'hela',
-  'odin',
-  'asgardians',
-  'frigga',
   'watcher',
   'response',
-  'valkyrie',
+  'valkyrie'
 ]
 
 //////////////////PROBLEM 6////////////////////
@@ -263,7 +225,7 @@ function denver(color, weather) {
 
 //What will seattle() return? Uncomment the correct answer.
 
-// let seattleWeather = "The sky is purple and it is stormy."
+let seattleWeather = "The sky is purple and it is stormy."
 // let seattleWeather = "The sky is grey and it is foggy."
 // let seattleWeather = "The sky is undefined and it is undefined."
 
@@ -271,20 +233,20 @@ function denver(color, weather) {
 
 // let vancouverWeather = "The sky is purple and it is stormy."
 // let vancouverWeather = "The sky is iron grey and it is rainy."
-// let vancouverWeather = "The sky is grey and it is foggy."
+let vancouverWeather = "The sky is grey and it is foggy."
 // let vancouverWeather = "The sky is undefined and it is undefined."
 
 //What will denver() return? Uncomment the correct answer.
 
 // let denverWeather = "The sky is purple and it is stormy."
 // let denverWeather = "The sky is iron grey and it is rainy."
-// let denverWeather = "The sky is grey and it is foggy."
+let denverWeather = "The sky is grey and it is foggy."
 // let denverWeather = "The sky is undefined and it is undefined."
 
 //What will denver("blue", "sunny") return? Uncomment the correct answer.
 
 // let denverWeather2 = "The sky is purple and it is stormy."
 // let denverWeather2 = "The sky is iron grey and it is rainy."
-// let denverWeather2 = "The sky is blue and it is sunny."
+let denverWeather2 = "The sky is blue and it is sunny."
 // let denverWeather2 = "The sky is grey and it is foggy."
 // let denverWeather2 = "The sky is undefined and it is undefined."
