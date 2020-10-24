@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header {
+    height: 100px;
+    background-color: rgb(132, 218, 207);
+}
+
+h1 {
+    margin-left: 30px;
+    line-height: 100px;
+}
+
+h3 {
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+p {
+    margin-left: 25px;
+    margin-top: -2px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main {
+    flex-direction: column;
+    min-height: 200px;
+    border-style: dashed;
+    border-color: black;
+    border-width: 1px;
+}
+
+.purpleSquare {
+    background-color: rgb(87, 0, 128);
+    width: 200px;
+    height: 80px;
+    margin-top: 100px;
+    margin-left: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: red;
+    float: left;
+}
+
+.blueSquare {
+    background-color: blue;
+    width: 80px;
+    height: 80px;
+    margin-top: 100px;
+    margin-left: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    box-shadow: 4px 4px 3px rgb(0, 0, 0);
+    float: left;
+}
+
+.pinkSquare {
+    background-color: rgb(250, 159, 233);
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    float: left;
+}
+
+.littleCircle {
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 50%;
+}
+
+.mediumCircle {
+    width: 90px;
+    height: 90px;
+    margin-top: 0px;
+    margin-left: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 50%;
+}
+
+.largeCircle {
+    width: 110px;
+    height: 110px;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 50%;
+}
+
+.singleBlackDot {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.blackDot {
+    width: 10px;
+    height: 10px;
+    margin-left: 39px;
+    margin-top: 14px;
+}
+
+.twoBlackDots {
+    width: 15px;
+    height: 15px;
+    margin-left: 14px;
+    margin-top: 14px;
+    float: left;
+}
+
+.carrotNose {
+    width: 30px;
+    height: 25px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.yellowSquare {
+    background-color: rgb(252, 247, 205);
+    width: 220px;
+    height: 220px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.greenCircle {
+    background-color: rgb(12, 121, 36);
+    width: 170px;
+    height: 170px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 50%;
+}
+
+.redSquare {
+    background-color: rgb(160, 26, 26);
+    width: 115px;
+    height: 115px;
+    margin: auto;
+    margin-top: 27.5px;
+}
+
+.blueCircle {
+    background-color: blue;
+    width: 90px;
+    height: 90px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border-radius: 50%;
+}
+
+.nemo {
+    width: 40px;
+    height: 40px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
